@@ -1,0 +1,24 @@
+{
+  "name": "language-procfile",
+  "version": "0.0.0",
+  "description": "Syntax highlighting for Procfile.",
+  "keywords": [
+    "Procfile"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ckaznocha/language-procfile"
+  },
+  "bugs": {
+    "url": "https://github.com/ckaznocha/language-procfile/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.16.0"
+  },
+  "dependencies": {}
+}

@@ -1,13 +1,13 @@
 {
   "name": "language-procfile",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Syntax highlighting for Procfile.",
   "keywords": [
     "Procfile"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/ckaznocha/language-procfile"
+    "type": "git",
+    "url": "https://github.com/ckaznocha/language-procfile"
   },
   "bugs": {
     "url": "https://github.com/ckaznocha/language-procfile/issues"

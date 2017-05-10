@@ -18,6 +18,9 @@ describe "Procfile grammar", ->
     expect(tokens[1]).toEqual value: ":", scopes: ["source.procfile", "punctuation.separator.dictionary.key-value.procfile"]
     expect(tokens[2]).toEqual value: " ", scopes: ["source.procfile"]
 
+    {tokens} = grammar.tokenizeLine("key-1: ")
+    expect(tokens[0]).toEqual value: "key-1", scopes: ["source.procfile", "variable.other.process-type.procfile"]
+
     {tokens} = grammar.tokenizeLine("1key_-34: ")
     expect(tokens[0]).toEqual value: "1key_-34: ", scopes: ["source.procfile"]
 

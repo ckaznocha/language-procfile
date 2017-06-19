@@ -1,4 +1,6 @@
 # Procfile support in Atom
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ckaznocha/language-procfile.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/ckaznocha/language-procfile.svg?branch=master)](https://travis-ci.org/ckaznocha/language-procfile)
 [![APM Version](https://img.shields.io/apm/v/language-procfile.svg)](https://atom.io/packages/language-procfile)
 [![Dependency Status](https://david-dm.org/ckaznocha/language-procfile.svg)](https://david-dm.org/ckaznocha/language-procfile)
